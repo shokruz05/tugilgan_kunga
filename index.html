@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="title" content="Happy Birthday Special">
-    <title> Shahrizodaga</title>
+    <title> Sevaraga</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Titan+One&family=Poppins:wght@500;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -20,13 +20,13 @@
     </audio>
 
     <div class="bg-bubbles">
-        <div class="bubble love-note" data-msg="Спасибо за твою искреннюю дружбу! 🤝"><i class="fa-solid fa-heart"></i></div>
-        <div class="bubble love-note" data-msg="Ты замечательный и верный друг! 🌟"><i class="fa-solid fa-star"></i></div>
-        <div class="bubble love-note" data-msg="Твоя улыбка всегда поднимает настроение! 😊"><i class="fa-solid fa-heart"></i></div>
-        <div class="bubble love-note" data-msg="Пусть этот день будет самым ярким! 🎉"><i class="fa-solid fa-star"></i></div>
+        <div class="bubble love-note" data-msg="Samimiy do‘stliging uchun rahmat! 🤝"><i class="fa-solid fa-heart"></i></div>
+        <div class="bubble love-note" data-msg="Sen ajoyib va sodiq do‘stsan! 🌟"><i class="fa-solid fa-star"></i></div>
+        <div class="bubble love-note" data-msg="Tabassuming har doim kayfiyatni ko‘taradi! 😊"><i class="fa-solid fa-heart"></i></div>
+        <div class="bubble love-note" data-msg="Bu kun eng baxtli va yorqin kun bo‘lsin! 🎉"><i class="fa-solid fa-star"></i></div>
     </div>
 
-    <div id="toast-note" class="toast">Message</div>
+    <div id="toast-note" class="toast">Xabar</div>
 
     <div id="wrapper">
         <div class="flag__birthday">
@@ -54,7 +54,7 @@
                 
                 <div class="btn pop-in-btn">
                     <button id="btn__letter" class="shimmer-btn">
-                        <span>Нажми сюда, потом на тортик и подарок</span>
+                        <span>Bu yerni bos, keyin tort bilan sovg‘ani bosasan</span>
                         <i class="fa-solid fa-envelope-open-heart"></i>
                     </button>
                 </div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="name">
                         <i class="fa-solid fa-heart beat"></i>
-                        <span> Шахризода</span>
+                        <span> Sevara</span>
                         <i class="fa-solid fa-heart beat"></i>
                     </div>
                     
@@ -123,7 +123,7 @@
         <div id="cake-modal" class="modal-box">
             <div class="letter__border cake-card">
                 <div class="close btn-close-cake"><i class="fa-solid fa-xmark"></i></div>
-                <h2 class="title__letter cake-title">Загадай желание! 🎂</h2>
+                <h2 class="title__letter cake-title">Niyat qil! 🎂</h2>
                 
                 <div class="cake-container">
                     <div class="cake-3d">
@@ -137,24 +137,24 @@
                     </div>
                 </div>
 
-                <p class="instruction">Нажми на пламя, чтобы задуть свечу!</p>
-                <p class="wish-text hidden">Пусть все твои мечты сбудутся! ✨</p>
+                <p class="instruction">Shamni o‘chirish uchun olovni ustiga bos!</p>
+                <p class="wish-text hidden">Hamma orzulariying ushalsin! ✨</p>
             </div>
         </div>
 
         <div id="scratch-modal" class="modal-box">
             <div class="letter__border scratch-card-box">
                 <div class="close btn-close-scratch"><i class="fa-solid fa-xmark"></i></div>
-                <h2 class="title__letter">Твой сюрприз 🎁</h2>
+                <h2 class="title__letter">Senga syurpriz 🎁</h2>
                 
                 <div class="scratch-container" id="scratch-container">
                     <div class="scratch-secret">
-                        <h3>Для Шахризоды! 🤗</h3>
-                        <p>Я сделал это специально, чтобы поднять настроение. Спасибо за твою отличную дружбу! С праздником!</p>
+                        <h3>Sevara uchun! 🤗</h3>
+                        <p>Buni kayfiyatingni ko‘tarish uchun maxsus o‘zim tayyorladim. Do‘stliging uchun katta rahmat! Bayraming muborak bo‘lsin!</p>
                     </div>
                     <canvas id="scratch-canvas"></canvas>
                 </div>
-                <p class="instruction mt-3 scratch-instruction">Сотри золотой слой, чтобы открыть!</p>
+                <p class="instruction mt-3 scratch-instruction">Ochish uchun tilla qatlamni art!</p>
             </div>
         </div>
 
@@ -168,9 +168,9 @@
     /* ==================================
        MAIN SETUP & TEXTS
        ================================== */
-    let datetxt = "2 июня"; 
-    let datatxtletter = "Шахризода! С днем рождения! 🎉 Я очень рад, что у меня есть такой замечательный и верный друг, как ты. Желаю тебе огромного счастья, здоровья и исполнения всех-всех твоих заветных желаний! С праздником! ✨";
-    let titleLetter = "Для Шахризоды";
+    let datetxt = "2-iyun"; 
+    let datatxtletter = "Sevara! Tug‘ilgan kuning muborak bo‘lsin! 🎉 Mening sendek ajoyib va sodiq do‘stim borligidan judayam xursandman. Senga cheksiz baxt, sog‘lik va barcha ezgu niyatlaring ushalishini tilayman! Bayraming muborak bo‘lsin! ✨";
+    let titleLetter = "Sevara uchun";
     
     let charArrDate = datetxt.split('');
     let charArrDateLetter = datatxtletter.split('');
@@ -320,7 +320,7 @@
         // Reset states
         $(".scratch-secret").removeClass("pop-gift");
         $("#scratch-canvas").show().css("opacity", "1");
-        $(".scratch-instruction").text("Сотри золотой слой, чтобы открыть сюрприз!");
+        $(".scratch-instruction").text("Syurprizni ochish uchun tilla qatlamni art!");
         initScratchCard();
     });
 
@@ -349,7 +349,7 @@
         ctx.fillStyle = "rgba(255, 255, 255, 0.6)";
         ctx.font = "bold 22px Poppins";
         ctx.textAlign = "center";
-        ctx.fillText("✨ СOТРИ МЕНЯ ✨", canvas.width/2, canvas.height/2 + 8);
+        ctx.fillText("✨ MENI ART ✨", canvas.width/2, canvas.height/2 + 8);
 
         let isDrawing = false;
         let isRevealed = false;
@@ -388,7 +388,7 @@
                 // Pop the gift out!
                 setTimeout(() => {
                     $(".scratch-secret").addClass("pop-gift");
-                    $(".scratch-instruction").text("Ура! Ты открыла подарок! 🎉");
+                    $(".scratch-instruction").text("Ura! Sovg‘ani ochding! 🎉");
                     confetti({ particleCount: 100, spread: 60, origin: { y: 0.7 }, zIndex: 1500 });
                 }, 200);
             }
